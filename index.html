@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html data-lt-installed="true" lang="en"><head>
 <meta charset="UTF-8">
 <link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
@@ -6,22 +6,32 @@
 <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
 <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
 <title>Vegas Homebrew &amp; Winemaking</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-<style>
-.map {
-  display: block;
-  margin: 0 auto;
-}
-</style>
+<style></style>
 </head>
 <body translate="no">
 <div class="container">
+ <!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#home" class="active">Logo</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="#BrewNews">Brew News</a>
+      <a href="#contact">Contact</a>
+      <a href="#Products">Products</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
 <section class="header">
-<h2>Vegas Homebrew and Winemaking</h2>
 <div class="value-props row">
-<div class="value-prop">
-<img class="value-img" src="">
+<div>
+<img class="logo" src="Images/logo.png">
 </div>
 </div>
 <h4>Enjoyment in Brewing ™</h4>
@@ -63,6 +73,6 @@ Las Vegas, NV 89146
 Like us on <a href="https://www.facebook.com/VegasHomebrew">Facebook!</a>
 </section>
 </div>
-
-
-</body></html>
+<script src="app.js"></script>
+</body>
+</html>
