@@ -1,78 +1,127 @@
 <!DOCTYPE html>
-<html data-lt-installed="true" lang="en"><head>
-<meta charset="UTF-8">
-<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
-<meta name="apple-mobile-web-app-title" content="CodePen">
-<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
-<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
-<title>Vegas Homebrew &amp; Winemaking</title>
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-<style></style>
-</head>
-<body translate="no">
-<div class="container">
- <!-- Top Navigation Menu -->
-<div class="topnav">
-    <a href="#home" class="active">Logo</a>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
-      <a href="#BrewNews">Brew News</a>
-      <a href="#contact">Contact</a>
-      <a href="#Products">Products</a>
-    </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div> 
-<section class="header">
-<div class="value-props row">
-<div>
-<img class="logo" src="Images/logo.png">
-</div>
-</div>
-<h4>Enjoyment in Brewing ™</h4>
-<p>
-<a href="tel:702-207-BEER">(702) 207-BEER</a><br>
-Sunday: 12 - 4<br>
-Monday: closed<br>
-Tues - Fri: 11 - 6<br>
-Saturday: 10 - 4<br>
-</p>
-</section>
-
-<h4>At Vegas Homebrew, we live for your success when brewing.</h4>
-<p>Owner Steve Berg has the customer service, experience and products to help you brew a perfect batch from start to finish.</p>
-<p>If you are just beginning to realize your mad beer-making skills with your first kick-ass Kölsch or you have long ago perfected your port, Vegas Homebrew and Winemaking has you covered</p>
-<p>We carry a full line of brewing hardware and are stocked with all the ingredients you need. Plus we are just around the corner, conveniently located at </p><address>5140 W Charleston Blvd. Las Vegas, NV 89146</address>
-<p></p>
-<p>So stop in today for all of your brewing supplies, ingredients, advice and 5-star customer service!</p>
-<p>Vegas Homebrew and Winemaking – the best brewing expertise and home brewing products with service that won't leave you tapped out.</p>
-<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.295097921181!2d-115.21362648436809!3d36.15937301120701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c16b4508596b%3A0xbdb56dcde90c9e2d!2s5140%20W%20Charleston%20Blvd%2C%20Las%20Vegas%2C%20NV%2089146!5e0!3m2!1sen!2sus!4v1589478826344!5m2!1sen!2sus" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="600" height="450" frameborder="0"></iframe>
-<section>
-<h4>5-star Reviews for Vegas Homebrew!</h4>
-<p>Spilly Bear</p>
-<p>This place doesn't look like much from the outside but it has all the right stuff on the inside Complete shop with all your beer and wine needs. Equipment, ingredients, replacement parts, etc Steve is super knowledgeable.</p>
-<p>Anthony Trujillo</p>
-<p>Steve is really knowledgeable about brewing and the egt necessary. It helps that he takes the time educate you too. Just ask Steve."</p>
-</section>
-<section>
-<b>We want to hear from you</b><br>
-Got a burning brewing question? Need some suggestions for a spectacular saison?<br>
-All questions and feedback are welcome!<br><br>
-Contact us at:<br>
-<address>
-Vegas Homebrew and Winemaking
-5140 W. Charleston Blvd.
-Las Vegas, NV 89146
-</address>
-<a href="tel:702-207-BEER">(702) 207-BEER</a><br>
-Like us on <a href="https://www.facebook.com/VegasHomebrew">Facebook!</a>
-</section>
-</div>
-<script src="app.js"></script>
-</body>
+<html data-lt-installed="true" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vegas Homebrew &amp; Winemaking</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body translate="no">
+      <!-- Top Navigation Menu -->
+      <nav>
+        <a href="#/home" class="active">
+          <img class="nav-top-logo" src="Images/hop.png" title="Logo" />Home
+        </a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#/BrewNews">Brew News</a>
+          <a href="#/contact">Contact</a>
+          <a href="#/reviews">reviews</a>
+          <a href="#/Products">Products</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+        <section id="home">
+            <div class="logo-container">
+              <img class="logo" src="https://via.placeholder.com/500x200.png" />
+            </div>
+          <h4 class="text-align-center">Enjoyment in Brewing™</h4>
+          <p>
+            <div class="center-align">
+              <a href="tel:702-207-BEER">(702) 207-BEER</a><br />
+              Sunday: 12 - 4<br />
+              Monday: closed<br />
+              Tues - Fri: 11 - 6<br />
+              Saturday: 10 - 4<br />
+            </div>
+          </p>
+        </section>
+        <line></line>
+        <section>
+          <div class="text-align-justify">
+            <h4 class="text-align-center">At Vegas Homebrew, we live for your success when brewing.</h4>
+            <p class="block-text">
+              <indent></indent>Owner Steve Berg has the customer service, experience and products to
+              help you brew a perfect batch from start to finish.
+              <br>
+              <indent></indent>If you are just beginning to realize your mad beer-making skills with
+              your first kick-ass Kölsch or you have long ago perfected your port,
+              Vegas Homebrew and Winemaking has you covered.
+              <br>
+              <indent></indent>We carry a full line of brewing hardware and are stocked with all the
+              ingredients you need. Plus we are just around the corner, conveniently
+              located at <span class="address">5140 W Charleston Blvd. Las Vegas, NV 89146</span>
+              So stop in today for all of your brewing supplies, ingredients, advice
+              and 5-star customer service!
+              <br>
+              <indent></indent>Vegas Homebrew and Winemaking – the best brewing expertise and home
+              brewing products with service that won't leave you tapped out.
+            </p>
+          </div>
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.295097921181!2d-115.21362648436809!3d36.15937301120701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c16b4508596b%3A0xbdb56dcde90c9e2d!2s5140%20W%20Charleston%20Blvd%2C%20Las%20Vegas%2C%20NV%2089146!5e0!3m2!1sen!2sus!4v1589478826344!5m2!1sen!2sus"
+            style="border: 0;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+            width="600"
+            height="450"
+            frameborder="0"
+          ></iframe>
+        </section>
+        <line></line>
+        <section id="reviews">
+          <h4 class="text-align-center">5-star Reviews for Vegas Homebrew!</h4>
+          <review>
+            <span class="yelp-review" data-review-id="KiZqqA9eqwEcRJ4oy1GHdg" data-hostname="www.yelp.com">Read 
+              <a href="https://www.yelp.com/user_details?userid=kwS_MjOUs1Jd_4X7B5t2yQ" rel="nofollow noopener">Nicole F.</a>'s 
+              <a href="https://www.yelp.com/biz/vegas-homebrew-las-vegas?hrid=KiZqqA9eqwEcRJ4oy1GHdg" rel="nofollow noopener">review</a> of 
+              <a href="https://www.yelp.com/biz/4Y7vcMpn6FvamqbtyIFXnQ" rel="nofollow noopener">Vegas Homebrew</a> on 
+              <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a>
+            <script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script>
+          </span>
+          </review>
+          <review>
+            <span class="yelp-review" data-review-id="6mltNWJT_pgl_OOgp8FNNw" data-hostname="www.yelp.com">Read 
+              <a href="https://www.yelp.com/user_details?userid=i_DR3vdE73nVm2GlMbGpGA" rel="nofollow noopener">Nate M.</a>'s 
+              <a href="https://www.yelp.com/biz/vegas-homebrew-las-vegas?hrid=6mltNWJT_pgl_OOgp8FNNw" rel="nofollow noopener">review</a> of 
+              <a href="https://www.yelp.com/biz/4Y7vcMpn6FvamqbtyIFXnQ" rel="nofollow noopener">Vegas Homebrew</a> on 
+              <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a>
+              <script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script>
+            </span>
+          </review>
+        </section>
+        <line></line>
+        <section id="contact">
+          <div class="text-align-center">
+            <p>
+              <b>We want to hear from you!</b>
+              Got a burning brewing question? Need some suggestions for a spectacular saison?
+              All questions and feedback are welcome!<br />
+              Contact us at:<br />
+              <span class="address">Vegas Homebrew and Winemaking 5140 W. Charleston Blvd. Las Vegas, NV 89146</span><br />
+              <a href="tel:702-207-BEER">(702) 207-BEER</a><br />
+              Like us on
+              <a href="https://www.facebook.com/VegasHomebrew">Facebook!</a>
+            </p>
+            
+          </div>
+        </section>
+  </body>
 </html>
