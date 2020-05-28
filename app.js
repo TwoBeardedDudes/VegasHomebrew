@@ -14,7 +14,7 @@ window.addEventListener(
     let elm =
       location.substr(0, 2) == "#/"
         ? document.querySelector(`#${location.replace("#/", "")}`)
-        : document.querySelector(`#home`);
+        : document.querySelector("section");
     elm.scrollIntoView();
   },
   false
