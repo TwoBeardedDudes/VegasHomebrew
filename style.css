@@ -1,6 +1,10 @@
 /*
 * GENERAL *
 */
+:root {
+  background: whitesmoke;
+}
+
 .map {
   display: block;
   margin: 0 auto;
@@ -21,7 +25,7 @@
 }
 
 .logo-container {
-  background-color: #333;
+  background-color: #666;
   padding: 50px;
 }
 
@@ -230,7 +234,7 @@ indent {
   position: fixed;
   bottom: 1em;
   left: 1em;
-  background: darkgreen;
+  background: #4caf50;
   color: white;
 }
 
