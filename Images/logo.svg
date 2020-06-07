@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 2085 745" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-74.6931,-684.329)">
+    <g transform="matrix(1.01163,0,0,1,436.628,274.931)">
         <g>
-            <g transform="matrix(1,0,0,1,531.331,939.922)">
-                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:333.333px;">V</text>
-            </g>
-            <g transform="matrix(1,0,0,1,761.664,939.922)">
-                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:333.333px;">EGAS</text>
+            <g>
+                <text x="0px" y="0px" style="font-family:'AzonixRegular', 'Azonix';font-size:333.333px;">V<tspan x="230.333px 478.666px 745.333px 971.999px " y="0px 0px 0px 0px ">EGAS</tspan></text>
             </g>
         </g>
     </g>
-    <g transform="matrix(0.651817,0,0,0.651817,-9.21581,577.874)">
-        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:511.391px;">HOMEBREW</text>
+    <g transform="matrix(0.617549,0,0,0.651817,24.1898,577.874)">
+        <text x="0px" y="0px" style="font-family:'AzonixRegular', 'Azonix';font-size:511.391px;">HOMEBREW</text>
     </g>
     <g transform="matrix(1,0,0,1,547.836,730.403)">
-        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:125px;">&amp; WINEMAKING</text>
+        <text x="0px" y="0px" style="font-family:'AzonixRegular', 'Azonix';font-size:125px;">&amp; WINEMAKING</text>
     </g>
     <g transform="matrix(0.222844,0,0,0.222844,20.5839,-112.682)">
         <g id="Beaker">
