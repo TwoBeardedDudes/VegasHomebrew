@@ -121,9 +121,9 @@
           </div>
         </section>
         <button onclick="window.scrollTo(0, 0);" class="return-top" title="Go to top">Top</button>
-        <script>let button = document.querySelector("button.return-top");
-
-          button.on("scroll", function(e) {
+        <script>
+        let button = document.querySelector("button.return-top");
+          button.addEventListener("scroll", function(e) {
             if (this.scrollTop > 147) {
               button.addClass("fix-position");
             } else {
