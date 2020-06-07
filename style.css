@@ -227,6 +227,12 @@ indent {
 }
 
 .return-top {
+  z-index: 499;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  background: darkgreen;
+  color: white;
 }
 
 /* Style all font awesome icons */

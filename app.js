@@ -19,3 +19,15 @@ window.addEventListener(
   },
   false
 );
+
+let button = document.querySelector("button.return-top");
+
+button.on("scroll", function(e) {
+    
+  if (this.scrollTop > 147) {
+    button.addClass("fix-position");
+  } else {
+    button.removeClass("fix-position");
+  }
+  
+});
