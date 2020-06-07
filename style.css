@@ -2,6 +2,15 @@
 * GENERAL *
 */
 
+
+/* 1rem(16px) @ 48rem(768px) increasing to 2rem(32px) @ 120rem(1920px) */
+:root {
+  font-size: 32px;
+  min-height: 0vw;
+  background: whitesmoke;
+  scroll-behavior: smooth;
+}
+
 .map {
   display: block;
   margin: 0 auto;
@@ -207,25 +216,10 @@ line:after {
   background-size: contain;
 }
 
-@media (min-width: 600px) {
-  .block-text {
-    width: 50%;
-    margin: auto;
-  }
-}
-
 indent {
   display: inline-block;
   width: 2em;
   height: 1em;
-}
-
-/* 1rem(16px) @ 48rem(768px) increasing to 2rem(32px) @ 120rem(1920px) */
-:root {
-  font-size: min(max(1rem, calc(1rem + ((1vw - 0.48rem) * 1.3889))), 1rem);
-  min-height: 0vw;
-  background: whitesmoke;
-  scroll-behavior: smooth;
 }
 
 .return-top {
