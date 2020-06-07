@@ -1,9 +1,6 @@
 /*
 * GENERAL *
 */
-:root {
-  background: whitesmoke;
-}
 
 .map {
   display: block;
@@ -225,24 +222,28 @@ indent {
 
 /* 1rem(16px) @ 48rem(768px) increasing to 2rem(32px) @ 120rem(1920px) */
 :root {
-  font-size: min(max(1rem, calc(1rem + ((1vw - 0.48rem) * 1.3889))), 2rem);
+  font-size: min(max(1rem, calc(1rem + ((1vw - 0.48rem) * 1.3889))), 1rem);
   min-height: 0vw;
+  background: whitesmoke;
 }
 
 .return-top {
-  z-index: 499;
-  position: fixed;
   bottom: 1em;
   left: 1em;
   background: #4caf50;
   color: white;
 }
 
+.fix-position {
+  z-index: 499;
+  position: fixed;
+}
+
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  padding: .5rem;
+  font-size: 1rem;
+  width: 1rem;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
