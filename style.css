@@ -225,6 +225,7 @@ indent {
   font-size: min(max(1rem, calc(1rem + ((1vw - 0.48rem) * 1.3889))), 1rem);
   min-height: 0vw;
   background: whitesmoke;
+  scroll-behavior: smooth;
 }
 
 .return-top {
