@@ -1,9 +1,7 @@
-@media only screen and (min-width: 768px) {
-    :root { 
-      font-size: 16px;
-    }
-    .block-text {
-      margin: auto;
-      width: 50%;
-    }
-  }
+:root { 
+  font-size: 16px;
+}
+.block-text {
+  margin: auto;
+  width: 50%;
+}
